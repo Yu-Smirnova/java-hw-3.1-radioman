@@ -83,7 +83,7 @@ class RadioTest {
     }
 
     @Test
-    void souldSetCurrentVolumeActual() {
+    void shouldSetCurrentVolumeActual() {
         Radio radio = new Radio();
 
         radio.setCurrentVolume(7);
@@ -93,7 +93,7 @@ class RadioTest {
     }
 
     @Test
-    void souldSetCurrentVolumeMaxAndAbove() {
+    void shouldSetCurrentVolumeMaxAndAbove() {
         Radio radio = new Radio();
         radio.setCurrentVolume(10);
 
@@ -104,7 +104,7 @@ class RadioTest {
     }
 
     @Test
-    void souldSetCurrentVolumeMinAndUnder() {
+    void shouldSetCurrentVolumeMinAndUnder() {
         Radio radio = new Radio();
         radio.setCurrentVolume(0);
 
